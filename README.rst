@@ -9,13 +9,31 @@ Cette documentation est écrite avec le lagunage de balisage léger ReStructured
 Chaque fois que la documentation est mise à jour sur GitHub elle automatiquement transformée en
 
 - `HTML <https://livretaccueil-sphinx.readthedocs.io>`_,
-- `PDF <http://readthedocs.org/projects/livretaccueil-sphinx/downloads/pdf/latest/>`_,
-- `EPUB <http://readthedocs.org/projects/livretaccueil-sphinx/downloads/epub/latest/>`_.
+- `PDF <https://readthedocs.org/projects/livretaccueil-sphinx/downloads/pdf/latest/>`_,
+- `EPUB <https://readthedocs.org/projects/livretaccueil-sphinx/downloads/epub/latest/>`_.
 
 Comment aider à l'améliorer
 ---------------------------
 
 Que ce soit pour corriger une simple coquille, une petite imprécision, ou pour écrire une nouvelle section dans la documentation, votre aide est précieux.
+
+Contribuer sans compte GitHub
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Vous pouvez comme dans le bon vieux temps simplement envoyer un e-mail l'une des personnes impliquées dans le projet en lui indiquant la modification à faire.
+
+Contribuer avec un compte GitHub
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Plusieurs méthodes se présentent en fonction de votre niveau d'implication / compétence.
+
+- Vous pouvez ouvrir un `Issue <https://github.com/labopp/livretaccueil-sphinx/issues>`_ qui décrit le problème.
+- Vous pouvez directement éditer le fichier incriminé à partir de l'interface web de GitHub.
+- Vous pouvez cloner ce dépôt, modifier les fichier en local, puis faire un *push* ou *pull request* (en fonction de vos droits).
+
+.. note::
+
+  Pour avoir des droits en écriture directe, il suffit de les demander à l'un des propriétaires.
 
 Qui a contribué au projet
 -------------------------
