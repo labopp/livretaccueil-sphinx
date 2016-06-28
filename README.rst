@@ -8,9 +8,9 @@ Cette documentation est écrite avec le lagunage de balisage léger ReStructured
 
 Chaque fois que la documentation est mise à jour sur GitHub elle automatiquement transformée en
 
-- `HTML <https://livretaccueil-sphinx.readthedocs.io>`_,
-- `PDF <https://readthedocs.org/projects/livretaccueil-sphinx/downloads/pdf/latest/>`_,
-- `EPUB <https://readthedocs.org/projects/livretaccueil-sphinx/downloads/epub/latest/>`_.
+- `HTML <https://labopp-livretaccueil.readthedocs.io>`_,
+- `PDF <https://readthedocs.org/projects/labopp-livretaccueil/downloads/pdf/latest/>`_,
+- `EPUB <https://readthedocs.org/projects/labopp-livretaccueil/downloads/epub/latest/>`_.
 
 Comment aider à l'améliorer
 ---------------------------
