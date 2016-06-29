@@ -253,12 +253,25 @@ latex_elements = {
 
      # Additional stuff for the LaTeX preamble.
      #
-     # 'preamble': '',
+'preamble': """\
+\\makeatletter
+\\AtBeginDocument{\\def\\sphinxlogo{%
+ % et comme si ça ne suffisait pas on doit se dépatouiller du flushright
+ \\let\\lpp@title\\@title
+ \\def\\@title{\\hb@xt@\\linewidth
+  {\\kern-1mm\\raisebox{-2.5mm}{\\includegraphics{logonompp.pdf}}%
+   \\hfil\\lpp@title}}}}
+\\authoraddress{\\hrule \\@height\\p@
+               \\noindent\\includegraphics[width=\\linewidth]{labofooter.pdf}}
+\\makeatother
+""",
 
      # Latex figure (float) alignment
      #
      # 'figure_align': 'htbp',
 }
+
+latex_additional_files = ['logonompp.pdf', 'labofooter.pdf']
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
