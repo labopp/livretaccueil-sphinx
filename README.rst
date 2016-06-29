@@ -24,9 +24,8 @@ Que ce soit pour corriger une simple coquille, une petite imprécision, ou pour
 Contribuer sans compte GitHub
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Vous pouvez comme au bon vieux temps simplement envoyer un e-mail à l'une
-des personnes impliquées dans le projet en lui indiquant la modification à
-faire.
+Vous pouvez comme au bon vieux temps simplement envoyer un e-mail à l'une des
+personnes impliquées dans le projet en lui indiquant la modification à faire.
 
 Contribuer avec un compte GitHub
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -34,9 +33,8 @@ Contribuer avec un compte GitHub
 Plusieurs méthodes se présentent en fonction de votre niveau d'implication
 et/ou de compétence :
 
--  Vous pouvez ouvrir un ticket `Issue
-   <https://github.com/labopp/livretaccueil-sphinx/issues>`_ qui décrit le
-   problème.
+-  Vous pouvez ouvrir un ticket `Issue <https://github.com/labopp
+   /livretaccueil-sphinx/issues>`_ qui décrit le problème.
 -  Vous pouvez directement éditer le fichier incriminé à partir de l'interface
    web de GitHub.
 -  Vous pouvez cloner ce dépôt, modifier les fichier en local, puis faire un
@@ -64,3 +62,4 @@ La liste des contributeurs dans l'ordre chronologique :
 
 -  Caterina Calgaro
 -  Kroum Tzanev
+-  Jean-François Burnol
