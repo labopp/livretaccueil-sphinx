@@ -13,7 +13,7 @@ automatiquement transformée en :
 
 -  `HTML <https://labopp-livretaccueil.readthedocs.io>`_,
 -  `PDF <https://readthedocs.org/projects/labopp-livretaccueil/downloads/pdf/latest/>`_,
--  `EPUB <https://readthedocs.org/projects/labopp-livretaccueil/downloads/epub/latest/>`_.
+-  et `EPUB <https://readthedocs.org/projects/labopp-livretaccueil/downloads/epub/latest/>`_.
 
 Comment aider à l'améliorer
 ---------------------------
@@ -40,7 +40,7 @@ et/ou de compétence :
 -  Vous pouvez directement éditer le fichier incriminé à partir de l'interface
    web de GitHub.
 -  Vous pouvez cloner ce dépôt, modifier les fichier en local, puis faire un
-   *push* ou *pull request* (selon vos droits) 
+   *push* ou *pull request* (selon vos droits).
 
 .. note::
 
