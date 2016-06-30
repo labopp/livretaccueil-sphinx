@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Livret d\'accueil Paul Painlevé'
+project = u'Livret d\'accueil'
 copyright = u'2016, Laboratoire Paul Painlevé'
 author = u'Laboratoire Paul Painlevé'
 
@@ -277,7 +277,7 @@ latex_additional_files = ['logonompp.pdf', 'labofooter.pdf']
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'LivretdaccueilPaulPainleve.tex', u'Livret d\'accueil Paul Painlevé',
+    (master_doc, 'LivretdaccueilPaulPainleve.tex', u'Livret d\'accueil',
      u'Laboratoire Paul Painlevé', 'manual'),
 ]
 
@@ -313,7 +313,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'livretdaccueilpaulpainleve', u'Livret d\'accueil Paul Painlevé',
+    (master_doc, 'livretdaccueilpaulpainleve', u'Livret d\'accueil',
      [author], 1)
 ]
 
@@ -328,8 +328,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'LivretdaccueilPaulPainleve', u'Livret d\'accueil Paul Painlevé',
-     author, 'LivretdaccueilPaulPainleve', 'One line description of project.',
+    (master_doc, 'LivretdaccueilPaulPainleve', u'Livret d\'accueil',
+     author, 'LivretdaccueilPaulPainleve',
+     'Le livret d\'accueil du laboratoire Paul Painlevé',
      'Miscellaneous'),
 ]
 
