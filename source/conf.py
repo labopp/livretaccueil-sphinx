@@ -255,10 +255,12 @@ latex_elements = {
      #
 'preamble': """\
 \\makeatletter
-\\AtBeginDocument{\\def\\sphinxlogo{%
- % et comme si ça ne suffisait pas on doit se dépatouiller du flushright
+\\AtBeginDocument{\\def\\sphinxlogo{% exploitons-le, il est dans \maketitle
  \\let\\lpp@title\\@title
- \\def\\@title{\\hb@xt@\\linewidth
+ \\def\\@title{\\vspace{\\parskip}% pour mettre la baseline du titre exactement
+  % au même endroit que Sphinx non hacké.
+  \\hb@xt@\\linewidth % truc pour contrer l'environnement flushright
+  % les -1mm et -2.5mm pour positionner finement le logo
   {\\kern-1mm\\raisebox{-2.5mm}{\\includegraphics{logonompp.pdf}}%
    \\hfil\\lpp@title}}}}
 \\authoraddress{\\hrule \\@height\\p@
@@ -271,7 +273,10 @@ latex_elements = {
      # 'figure_align': 'htbp',
 }
 
-latex_additional_files = ['logonompp.pdf', 'labofooter.pdf']
+# indispensable car les fichiers ne sont pas inclus via des directives image
+# ou figure mais directement par du code LaTeX ad hoc, donc le sphinx-build
+# doit savoir où les trouver pour les mettre dans build/latex
+latex_additional_files = ['images/logonompp.pdf', 'images/labofooter.pdf']
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
