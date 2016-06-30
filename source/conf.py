@@ -253,7 +253,7 @@ latex_elements = {
 
      # Additional stuff for the LaTeX preamble.
      #
-'preamble': """\
+'preamble': u"""\
 \\makeatletter
 \\AtBeginDocument{\\def\\sphinxlogo{% exploitons-le, il est dans \maketitle
  \\let\\lpp@title\\@title
